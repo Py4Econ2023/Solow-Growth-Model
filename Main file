@@ -1,0 +1,39 @@
+
+# 1. Create a class called Solow with attributes being the parameters of the Solow growth model (n, s, delta, alpha, g).
+
+class Solow:
+    def __init__(self, n, s, delta, alpha, g):
+        self.n = n
+        self.s = s
+        self.delta = delta
+        self.alpha = alpha
+        self.g = g
+
+    # 2. Add a method which calculates the RHS of the equation (1), given a value for k_now
+    def k_next(self, k_now):
+        return (self.s * k_now**self.alpha + (1 - self.delta) * k_now) / ((1 + self.g)*(1 + self.n))
+
+    # 3. Add a method that updates the current value of k_t
+
+    # 4. Add a method that generates a sequence of values for k_t, for t periods
+    def k_sequence(self, k0, t):
+        k_sequence = [k0]
+        for i in range(t):
+            k_sequence.append(self.k_next(k_sequence[i]))
+        return k_sequence
+
+    # 5. Add a method that calculates the steady state
+
+    # 6. Add a method that computes the value of the aggregate variables from a value of k, A, and L
+
+    # 7. Add a method that computes the per worker variables
+
+    # 8. Add a method that generates a series of per worker variables
+
+
+model = Solow(n=0.03, s=0.25, delta=0.1, alpha=0.3, g=0.02)
+print(model.k_sequence(k0=1, t=10))
+
+# 9. We now want to use this class for scenario analysis. 
+# A scenario is a series of assumptions made on the parameters of the model. 
+# We will leave to you to decide which scenarios are interesting to present.
