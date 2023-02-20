@@ -1,1 +1,32 @@
-Here is the paper summary
+Here are the summaries: 
+
+Caselli, F. G. Esquivel, and F. Lefort, "Reopening the Convergence Debate: A New Look at Cross-Country Growth Empirics":
+
+2 sources of inconsistency in existing cross-country empirical work on growth: correlated individual effects and endogenous explanatory variables
+    - Correction: GMM estimator + first differences
+
+Results: estimated convergence rate is 10% comparing to the consensus of 2%
+    - Implication: economies spend most of their time in a neighbourhood of their steady state. Thus, the large diﬀerences in observed levels of per capita GDP as arising from diﬀerences in steady-state levels, rather than from diﬀerences in the position of countries along similar transitional paths.
+     - Average time an economy spends to cover half of the distance between its initial position and its steady-state is about seven years instead of the thirty
+
+Test on the standard Solow model
+    - 2 tests:
+        Single hypothesis: reject
+        Joint hypothesis: Cobb-Douglas + Solow: reject because the alpha (share of physical capital in income) is too low, 0.104, relative to the standard       assessment of 1/3
+
+Test on the augmented Solow model：Rejection 
+    - The high convergence rate is in favour of an open economy versions of the neoclassical growth model
+          - Barro and Sala-i-Martin (1995, ch. 3) argue that a model combining collateral constraints to international borrowing, ﬁnite lifetimes, and adjustment costs would predict — in an open economy setting — rates of convergence that, albeit ﬁnite, are higher than those implied by closed economy models.
+    - No evidence that human capital enters independently as an input in the aggregate production function.
+    - International differences in technology are important in cross-country comparison
+
+
+
+Young, Alwyn. "The Tyranny of Numbers: Confronting the Statistical Realities of the East Asian Growth Experience." :
+
+Main point: growth in the East Asian NICs (Hong Kong, Singapore, South Korea, Taiwan) was mainly due to factor accumulation, with little technical change or total factor productivity growth.
+
+Findings do not contradict current neo-classical growth model. The growth is fuelled by rise in labour participation rates, investment to GDP ratios, and educational standards and the intersectoral transfer of labor from agriculture to other sectors (e.g., manufacturing) with higher value added per worker
+
+
+
